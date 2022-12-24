@@ -1,0 +1,13 @@
+package com.example.frontendproject;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class FrontendprojectApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(FrontendprojectApplication.class, args);
+	}
+
+}

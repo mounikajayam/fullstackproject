@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>home page</title>
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>
+</head>
+<body>
+<h1>Home Page</h1>
+<div class="container">
+  <form action="/success">
+    <label for="Courses">Courses</label>
+   <select id="courses" name="courses">
+      <option value="Java">Java</option>
+      <option value="Phython">phython</option>
+      <option value="Turbo c">Turbo c</option>
+    </select>
+     <label for="Cost">Cost</label>
+    <select id="courses" name="courses">
+      <option value="4999">4999</option>
+      <option value="3999">3999</option>
+      <option value="2999">2999</option>
+    </select>
+    <label for="Duration">Duration</label>
+    <select id="courses" name="courses">
+      <option value="6 months">6 months</option>
+      <option value="4 months">4 months</option>
+      <option value="3 months">3 months</option>
+    </select>
+    <input type="submit" value="Submit">
+  </form>
+</div> 
+<p>software is a set of computer programs and associated documentation and data.</p>
+</body>
+</html>
